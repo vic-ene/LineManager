@@ -1,0 +1,248 @@
+h1{
+    text-align: center;
+    font-size: 40px;	
+   
+}
+h1.home{
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+body.image{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.home{
+    background-image: url('../img/imageHome.png');
+}
+body.waiting{
+    background-image: url('../img/imageWaiting.png');
+}
+body.ongoing{
+    background-image: url('../img/imageOngoing.png');
+}
+body.completed{
+    background-image: url('../img/imageCompleted.png');
+}
+
+
+
+
+
+
+/* Tables */
+table{
+    position: relative;
+    border-collapse: collapse;
+    text-align: center; 
+    width: 100%;
+    bottom: 8vh;
+    font-family: monospace;
+    font-size: 15px;
+}
+th{
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+td{
+    border: 1px solid black;
+}
+tr.waiting{
+    background-color: firebrick;
+}
+.waiting tbody tr:nth-child(even) {
+    background: #F9EFEF;
+}
+tr.ongoing{
+    background-color: black;
+}
+.ongoing tbody tr:nth-child(even) {
+    background: #dbdbdb;
+}
+tr.completed{
+    background-color:mediumseagreen;
+}
+.completed tbody tr:nth-child(even) {
+    background: #E0EFE2;
+}
+tr.check{
+    background-color:royalblue;
+}
+.check tbody tr:nth-child(even) {
+    background: #c7d3f3;
+}
+tr.test_results{
+    background-color:rgb(47, 184, 194);
+}
+.test_results tbody tr:nth-child(even) {
+    background: #c7d3f3;
+}
+tr.flaw_summary{
+    background-color:rgb(225, 76, 65);
+}
+.flaw_summary tbody tr:nth-child(even) {
+    background: #c7d3f3;
+}
+
+
+
+
+
+
+/* Buttons */
+.bigbutton{
+     position: relative;
+     left: 2vw;
+     width: 47vw;
+     height: 40vh;
+     font-family: monospace;
+     font-size: 4vw;
+     border-radius: 25px;
+}
+.bigbutton:hover{
+    border:10px solid black;
+}
+.cartWaiting{
+     background-color:darkorange; 
+}
+.computerWaiting{
+     background-color:firebrick; }
+.computer{
+    background-color:green; 
+}
+.cart{
+    background-color:teal; 
+}
+.startProduction{
+    background-color:coral; 
+}
+.setToCompleted{
+    background-color: rgb(9, 139, 96);
+}
+.mediumbutton{
+    position: center;
+    margin:0px;
+    width: 98vw;
+    height: 20vh;
+    font-family: monospace;
+    font-size: 4vw;
+    border-radius: 25px;
+    margin-top:25px;		
+}
+.mediumbutton:hover{
+    border:5px solid white;
+}
+.mediumbutton.waiting{
+    background-color:firebrick; 
+}
+.mediumbutton.ongoing{
+    background-color:orange; 	
+}
+.mediumbutton.completed{
+    background-color:teal; 
+}
+.otherProduct{
+    position: absolute;
+    top:0px;
+    right:0px;
+    padding:15px;
+    width:150px;
+    height: 70px;
+    font-size:17px;
+    border-radius:10px;
+    border:3px solid black;
+    background-color: peachpuff;
+}
+.otherProduct:hover{
+    background-color: darksalmon;
+}
+.sameLine{
+    display: inline-block;
+}
+
+
+
+/* For the waiting carts */
+.dropdown{
+    border-radius: 5px;
+    padding: 10px;
+}
+.updateCriteria{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: seashell;
+}.updateCriteria:hover{
+    background-color: wheat;
+}
+
+
+/* For the quality Pages */
+.qualityTest{
+    border-radius: 5px;
+    padding: 10px;
+}
+.qualityTest-submit{
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    padding: 10px;
+    background:mistyrose;
+    font-size:20px;
+}
+.qualityTest-submit:hover{
+    background:crimson;
+    cursor: pointer;
+}
+
+/* Flaw_page */
+.flaw_submit{
+    margin: auto;
+    text-align: center;
+}
+.flaw_page{
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+}
+.flaw_page_submit{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background:mistyrose;
+    font-size:20px;
+}
+.flaw_page_submit:hover{
+    background:crimson;
+    cursor: pointer;
+}
+.flaw_buttons button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.button_block{
+    margin: auto;
+    text-align: center;
+}
+.flaw_buttons button:hover{
+    background: turquoise;
+}
+.text-info{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
